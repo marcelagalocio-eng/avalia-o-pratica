@@ -3,61 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apoio ao Idoso</title>
+    <title>Apoio e Cuidados ao Idoso</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            font-size: 22px; /* Fonte maior para facilitar a leitura */
+            font-size: 22px;
             line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #111111; /* Alto contraste */
+            background-color: #f8f9fa;
+            color: #212529;
             margin: 0;
             padding: 20px;
         }
         header {
-            background-color: #0056b3;
+            background-color: #0d6efd;
             color: white;
-            padding: 20px;
+            padding: 25px;
             text-align: center;
-            border-radius: 8px;
+            border-radius: 10px;
+        }
+        .cartao {
+            background: white;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
         }
         .botao {
-            display: inline-block;
-            background-color: #28a745;
+            display: block;
+            width: 100%;
+            background-color: #198754;
             color: white;
-            padding: 15px 30px;
-            font-size: 24px;
+            text-align: center;
+            padding: 18px 0;
+            font-size: 22px;
             text-decoration: none;
             border-radius: 8px;
             margin-top: 15px;
             font-weight: bold;
         }
-        section {
-            background: white;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 8px;
+        .botao-contato {
+            background-color: #0d6efd;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Central de Ajuda ao Idoso</h1>
+        <h1>Rede de Apoio ao Idoso</h1>
+        <p>Encontre ajuda para suas necessidades diárias</p>
     </header>
 
-    <section>
-        <h2>Como podemos ajudar hoje?</h2>
-        <p>Este site foi feito para facilitar o seu dia a dia. Escolha uma das opções abaixo:</p>
-        
-        <ul>
-            <li>Dicas de uso do celular e WhatsApp</li>
-            <li>Lembretes de medicamentos</li>
-            <li>Contatos de emergência e apoio</li>
-        </ul>
+    <div class="cartao">
+        <h2>💊 Remédios e Medicamentos</h2>
+        <p>Solicite auxílio para buscar receitas, organizar horários ou solicitar doações de remédios.</p>
+        <a href="https://wa.me/SEUNUMERO" class="botao">Pedir Ajuda com Medicamentos</a>
+    </div>
 
-        <a href="#" class="botao">Pedir Ajuda</a>
-    </section>
+    <div class="cartao">
+        <h2>🤝 Cuidadores e Acompanhantes</h2>
+        <p>Encontre voluntários e profissionais para acompanhamento em consultas ou rotina diária.</p>
+        <a href="https://wa.me/SEUNUMERO" class="botao">Solicitar Acompanhante</a>
+    </div>
+
+    <div class="cartao">
+        <h2>🍎 Alimentação e Cestas básicas</h2>
+        <p>Receba apoio para compras de mercado ou entrega de refeições e cestas.</p>
+        <a href="https://wa.me/SEUNUMERO" class="botao">Pedir Ajuda com Alimentos</a>
+    </div>
+
+    <div class="cartao">
+        <h2>📞 Dúvidas ou Emergências</h2>
+        <p>Precisa de outra coisa? Entre em contato direto conosco.</p>
+        <a href="tel:190" class="botao botao-contato">Ligar para Emergência</a>
+    </div>
 
 </body>
 </html>
